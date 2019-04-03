@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA">
+  <uml:Profile xmi:id="_f4PVQFPQEem8I4NSXYRmMQ" name="dsmlproto.dynamic" metaclassReference="_nNJtUFPQEem8I4NSXYRmMQ _9vkt8FRrEemPjv0Zh0vG7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_saq7EFPQEem8I4NSXYRmMQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w9oI4FPQEem8I4NSXYRmMQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9oI4VPQEem8I4NSXYRmMQ" key="Version" value="0.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9oI4lPQEem8I4NSXYRmMQ" key="Comment" value="&lt;undefined>"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9oI41PQEem8I4NSXYRmMQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9oI5FPQEem8I4NSXYRmMQ" key="Date" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9oI5VPQEem8I4NSXYRmMQ" key="Author" value="&lt;undefined>"/>
+      </eAnnotations>
+      <contents xmi:type="ecore:EPackage" xmi:id="_imPPgFRzEemPjv0Zh0vG7w" name="dsmlprotodynamic" nsURI="http://svk.dsmlproto.dynamic/definition" nsPrefix="dsmlprotodynamic">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imPPgVRzEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imPPglRzEemPjv0Zh0vG7w" key="originalName" value="dsmlproto.dynamic"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imPPjVRzEemPjv0Zh0vG7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imPPjlRzEemPjv0Zh0vG7w" key="Version" value="0.0.9"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imPPj1RzEemPjv0Zh0vG7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imPPkFRzEemPjv0Zh0vG7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imPPkVRzEemPjv0Zh0vG7w" key="Date" value="2019-04-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imPPklRzEemPjv0Zh0vG7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_imPPg1RzEemPjv0Zh0vG7w" name="DsmlClassDynamic">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imPPhFRzEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ojf1MFPQEem8I4NSXYRmMQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_imPPhVRzEemPjv0Zh0vG7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_imPPh1RzEemPjv0Zh0vG7w" name="DsmlConstraintDynamic">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imPPiFRzEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_eqJNYFRzEemPjv0Zh0vG7w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_imPPiVRzEemPjv0Zh0vG7w" name="base_Constraint" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_gYLEMFRtEemPjv0Zh0vG7w" name="dsmlprotodynamic" nsURI="http://svk.dsmlproto.dynamic/definition" nsPrefix="dsmlprotodynamic">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gYLEMVRtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gYLEMlRtEemPjv0Zh0vG7w" key="originalName" value="dsmlproto.dynamic"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gYLEM1RtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gYLEPVRtEemPjv0Zh0vG7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gYLEPlRtEemPjv0Zh0vG7w" key="Version" value="0.0.8"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gYLEP1RtEemPjv0Zh0vG7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gYLEQFRtEemPjv0Zh0vG7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gYLEQVRtEemPjv0Zh0vG7w" key="Date" value="2019-04-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gYLEQlRtEemPjv0Zh0vG7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_gYLENFRtEemPjv0Zh0vG7w" name="DsmlClassDynamic">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gYLENVRtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ojf1MFPQEem8I4NSXYRmMQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_gYLENlRtEemPjv0Zh0vG7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_gYLEOFRtEemPjv0Zh0vG7w" name="DsmlConstraintBlock">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gYLEOVRtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks/ConstraintBlock"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_FM-eMFRtEemPjv0Zh0vG7w" name="dsmlprotodynamic" nsURI="http://svk.dsmlproto.dynamic/definition" nsPrefix="dsmlprotodynamic">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FM-eMVRtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FM-eMlRtEemPjv0Zh0vG7w" key="originalName" value="dsmlproto.dynamic"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FM-eM1RtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FM_sUlRtEemPjv0Zh0vG7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FM_sU1RtEemPjv0Zh0vG7w" key="Version" value="0.0.7"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FM_sVFRtEemPjv0Zh0vG7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FM_sVVRtEemPjv0Zh0vG7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FM_sVlRtEemPjv0Zh0vG7w" key="Date" value="2019-04-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FM_sV1RtEemPjv0Zh0vG7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_FM-eNFRtEemPjv0Zh0vG7w" name="DsmlClassDynamic">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FM-eNVRtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ojf1MFPQEem8I4NSXYRmMQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FM-eNlRtEemPjv0Zh0vG7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_FM-eOFRtEemPjv0Zh0vG7w" name="DsmlConstraintBlock">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FM-eOVRtEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks/ConstraintBlock"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_njlXcFRsEemPjv0Zh0vG7w" name="dsmlprotodynamic" nsURI="http://svk.dsmlproto.dynamic/definition" nsPrefix="dsmlprotodynamic">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_njlXcVRsEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_njlXclRsEemPjv0Zh0vG7w" key="originalName" value="dsmlproto.dynamic"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_njlXc1RsEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_njmlkVRsEemPjv0Zh0vG7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_njmlklRsEemPjv0Zh0vG7w" key="Version" value="0.0.6"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_njmlk1RsEemPjv0Zh0vG7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_njmllFRsEemPjv0Zh0vG7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_njmllVRsEemPjv0Zh0vG7w" key="Date" value="2019-04-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_njmlllRsEemPjv0Zh0vG7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_njlXdFRsEemPjv0Zh0vG7w" name="DsmlClassDynamic">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_njlXdVRsEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ojf1MFPQEem8I4NSXYRmMQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_njlXdlRsEemPjv0Zh0vG7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_njlXeFRsEemPjv0Zh0vG7w" name="DsmlConstraintBlock">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_njlXeVRsEemPjv0Zh0vG7w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks/ConstraintBlock"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_mzN6MFRbEemGRd1kOoJUaQ" name="dsmlprotodynamic" nsURI="http://svk.dsmlproto.dynamic/definition" nsPrefix="dsmlprotodynamic">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mzN6MVRbEemGRd1kOoJUaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mzN6MlRbEemGRd1kOoJUaQ" key="originalName" value="dsmlproto.dynamic"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mzPIUVRbEemGRd1kOoJUaQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mzPIUlRbEemGRd1kOoJUaQ" key="Version" value="0.0.5"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mzPIU1RbEemGRd1kOoJUaQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mzPIVFRbEemGRd1kOoJUaQ" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mzPIVVRbEemGRd1kOoJUaQ" key="Date" value="2019-04-01"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mzPIVlRbEemGRd1kOoJUaQ" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mzN6M1RbEemGRd1kOoJUaQ" name="DsmlClassDynamic">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mzN6NFRbEemGRd1kOoJUaQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ojf1MFPQEem8I4NSXYRmMQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mzN6NVRbEemGRd1kOoJUaQ" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_nNJtUFPQEem8I4NSXYRmMQ" alias="Class">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_9vkt8FRrEemPjv0Zh0vG7w" alias="Constraint">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Constraint"/>
+    </elementImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gBA2wFPQEem8I4NSXYRmMQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gBEhIFPQEem8I4NSXYRmMQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Z3j24FRtEemPjv0Zh0vG7w">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Z3j24VRtEemPjv0Zh0vG7w">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_ojf1MFPQEem8I4NSXYRmMQ" name="DsmlClassDynamic">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qmdygFPQEem8I4NSXYRmMQ" name="base_Class" association="_qmbWQFPQEem8I4NSXYRmMQ">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qmdygVPQEem8I4NSXYRmMQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_qmbWQFPQEem8I4NSXYRmMQ" name="E_DsmlClassDynamic_Class5" memberEnd="_qmdLcFPQEem8I4NSXYRmMQ _qmdygFPQEem8I4NSXYRmMQ">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_qmdLcFPQEem8I4NSXYRmMQ" name="extension_DsmlClassDynamic" type="_ojf1MFPQEem8I4NSXYRmMQ" aggregation="composite" association="_qmbWQFPQEem8I4NSXYRmMQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_eqJNYFRzEemPjv0Zh0vG7w" name="DsmlConstraintDynamic">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hjgnMVRzEemPjv0Zh0vG7w" name="base_Constraint" association="_hjeK8FRzEemPjv0Zh0vG7w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Constraint"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hjgnMlRzEemPjv0Zh0vG7w"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_hjeK8FRzEemPjv0Zh0vG7w" name="E_DsmlConstraintDynamic_Constraint12" memberEnd="_hjgnMFRzEemPjv0Zh0vG7w _hjgnMVRzEemPjv0Zh0vG7w">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_hjgnMFRzEemPjv0Zh0vG7w" name="extension_DsmlConstraintDynamic" type="_eqJNYFRzEemPjv0Zh0vG7w" aggregation="composite" association="_hjeK8FRzEemPjv0Zh0vG7w"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_w9mTsFPQEem8I4NSXYRmMQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w9pXAFPQEem8I4NSXYRmMQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Profile>
+  <Ecore:EPackage xmi:id="_xsUa4FPQEem8I4NSXYRmMQ" base_Package="_f4PVQFPQEem8I4NSXYRmMQ" nsURI="http://svk.dsmlproto.dynamic/definition"/>
+</xmi:XMI>

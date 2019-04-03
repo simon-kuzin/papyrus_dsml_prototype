@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://DSMLPROTO_DYNAMIC_PROFILE/"
+            target="platform:/plugin/svk.dsmlproto.profile.dynamic/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="Dynamic version of profile plugin"
+            name="DSML Prototype (Dynamic)"
+            path="pathmap://DSMLPROTO_DYNAMIC_PROFILE/dsmlproto.dynamic.profile.uml"
+            provider="Me">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.dynamic_package">
+      <profile
+            location="pathmap://DSMLPROTO_DYNAMIC_PROFILE/dsmlproto.dynamic.profile.uml#_f4PVQFPQEem8I4NSXYRmMQ"
+            uri="http://svk.dsmlproto.dynamic/definition">
+      </profile>
+   </extension>
+
+</plugin>

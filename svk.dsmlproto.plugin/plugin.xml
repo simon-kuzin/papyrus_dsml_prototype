@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://PLUGIN_MODEL/"
+            target="platform:/plugin/svk.dsmlproto.plugin/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.architecture.models">
+      <model
+            path="model/dsmlproto.architecture">
+      </model>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel
+            model="model/newChildMenu.creationmenumodel">
+      </menuCreationModel>
+   </extension>
+
+
+</plugin>

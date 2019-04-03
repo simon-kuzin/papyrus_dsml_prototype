@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated dsmlproto.profile -->
+      <package
+            uri="http://svk.dsmlproto"
+            class="svk.dsmlproto.profile.dsmlproto.DsmlprotoPackage"
+            genModel="model/dsmlproto.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://DSMLPROTO_PROFILE/"
+            target="platform:/plugin/svk.dsmlproto.profile/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://DSMLPROTO_PROFILE/dsmlproto.profile.uml#_bMP74FGOEemmU-8J7T381A"
+            uri="http://svk.dsmlproto">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="DSML Prototype Profile"
+            name="DSML Prototype (Dev)"
+            path="pathmap://DSMLPROTO_PROFILE/dsmlproto.profile.uml"
+            provider="Simon Kuzin">
+      </profile>
+   </extension>
+
+</plugin>

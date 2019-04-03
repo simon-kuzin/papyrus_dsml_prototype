@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:gmfdiagrepresentation="http://www.eclipse.org/papyrus/infra/gmfdiag/representation" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" xmlns:representation="http://www.eclipse.org/papyrus/infra/core/architecture/representation" xmi:id="_q4WWcFGQEemmU-8J7T381A" id="svk.dsmlproto.domain" name="DSMLProto">
+  <stakeholders xmi:type="architecture:Stakeholder" xmi:id="_r_VMoFGQEemmU-8J7T381A" id="svk.dsmlproto.stakeholder" name="Stakeholder" concerns="_50atIFGQEemmU-8J7T381A"/>
+  <concerns xmi:type="architecture:Concern" xmi:id="_50atIFGQEemmU-8J7T381A" id="svk.dsmlproto.concern" name="Concern"/>
+  <contexts xmi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_GHclAFGREemmU-8J7T381A" id="svk.dsmlproto.language" name="Language" defaultViewpoints="_iev8UFGSEemmU-8J7T381A" creationCommandClass="dsmlproto.architecture.CreateModel">
+    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_iev8UFGSEemmU-8J7T381A" id="svk.dsmlproto.viewpoint" name="Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/viewpoint.gif" concerns="_50atIFGQEemmU-8J7T381A" representationKinds="_vQH9EFGSEemmU-8J7T381A"/>
+    
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>    
+    
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.elementtypesconfigurations#svk.dsmlproto.elementTypes"/>
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotoDI.elementtypesconfigurations#svk.dsmlproto.di.elementTypes"/>
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamic.elementtypesconfigurations#svk.dsmlprotodynamic.elementTypes"/>
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.elementTypes"/>
+    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_vQH9EFGSEemmU-8J7T381A" id="svk.dsmlproto.diagram" name="DSML Proto Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" concerns="_50atIFGQEemmU-8J7T381A" implementationID="PapyrusUMLClassDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_wlWU4FHlEemmU-8J7T381A" permit="true" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_xQKMcFHlEemmU-8J7T381A" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_1pgLQFHlEemmU-8J7T381A" permit="true"/>
+      <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.paletteconfiguration#/"/>
+    </representationKinds>
+    <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+    <profiles xmi:type="ecore:EPackage" href="http://svk.dsmlproto#/"/>
+  </contexts>
+</architecture:ArchitectureDomain>

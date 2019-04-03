@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" label="DSML Proto">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="dsmlComponent">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="dsmlproto.elements.elementtypesconfigurations#svk.dsmlproto.elements.dsmlComponent"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="dsmlClass">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="dsmlproto.elements.elementtypesconfigurations#_XXtycFLPEemZGcUhHEfD9A"/>
+  </menu>
+</ElementCreationMenuModel:Folder>

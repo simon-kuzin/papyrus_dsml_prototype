@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="com.example.dsmlproto.di.elementTypes" identifier="svk.dsmlproto.elements.di.elementTypes" name="dsmlproto DI" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.example.dsmlproto.di.dsmlComponent_Component_NestedClassifierLabel" identifier="com.example.dsmlproto.di.dsmlComponent_Component_NestedClassifierLabel" name="dsmlComponent (Component_NestedClassifierLabel)" hint="Component_NestedClassifierLabel" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_8cD6MlJTEempc8fQUSv_dw" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.elements.elementtypesconfigurations#svk.dsmlproto.elements.dsmlComponent"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Component_NestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.example.dsmlproto.di.dsmlComponent_Component_Shape" identifier="com.example.dsmlproto.di.dsmlComponent_Component_Shape" name="dsmlComponent (Component_Shape)" hint="Component_Shape" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_8cD6NVJTEempc8fQUSv_dw" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.elements.elementtypesconfigurations#svk.dsmlproto.elements.dsmlComponent"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Component_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.example.dsmlproto.di.dsmlComponent_Component_Shape_CCN" identifier="com.example.dsmlproto.di.dsmlComponent_Component_Shape_CCN" name="dsmlComponent (Component_Shape_CCN)" hint="Component_Shape_CCN" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_8cD6OFJTEempc8fQUSv_dw" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.elements.elementtypesconfigurations#svk.dsmlproto.elements.dsmlComponent"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Component_Shape_CCN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.example.dsmlproto.di.dsmlComponent_Component_Shape_CN" identifier="com.example.dsmlproto.di.dsmlComponent_Component_Shape_CN" name="dsmlComponent (Component_Shape_CN)" hint="Component_Shape_CN" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_8cD6O1JTEempc8fQUSv_dw" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_GaULsFJXEempc8fQUSv_dw">
+      <stereotypesQualifiedNames>dsmlproto::dsmlComponent</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.elements.elementtypesconfigurations#svk.dsmlproto.elements.dsmlComponent"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Component_Shape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_ACeU4FLQEemZGcUhHEfD9A" identifier="com.example.dsmlproto.di.dsmlClass_Class_Shape" name="DsmlClass (Class_Shape)" hint="Class_Shape" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlproto.elementtypesconfigurations#_XXtycFLPEemZGcUhHEfD9A"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape"/>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

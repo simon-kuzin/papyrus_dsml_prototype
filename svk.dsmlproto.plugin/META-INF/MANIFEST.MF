@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DSML Proto Architecture
+Bundle-SymbolicName: svk.dsmlproto.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: Simon Kuzin
+Bundle-Localization: plugin
+Bundle-Activator: dsmlproto.architecture.Activator
+Require-Bundle: org.eclipse.papyrus.infra.types.core;bundle-version="4.0.0",
+ org.eclipse.papyrus.uml.diagram.common;bundle-version="3.3.100",
+ org.eclipse.papyrus.uml.diagram.clazz;bundle-version="3.1.0",
+ org.eclipse.papyrus.infra.architecture;bundle-version="2.0.0",
+ org.eclipse.papyrus.infra.newchild;bundle-version="4.1.0",
+ org.eclipse.core.runtime,
+ org.eclipse.uml2.uml;visibility:=reexport,
+ svk.dsmlproto.profile;bundle-version="1.0.0",
+ svk.dsmlproto.profile.dynamic;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: svk.dsmlproto.plugin
+Bundle-ActivationPolicy: lazy
+Export-Package: dsmlproto.architecture

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="svk.dsmlproto.palette">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="svk.dsmlproto.drawer" label="DSML Proto" description="">
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="svk.dsmlproto.tool.DsmlComponent" label="DsmlComponent" description="" kind="CreationTool" toolClassName=""/>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="svk.dsmlproto.tool.dsmlclass" label="DsmlClass" description="DSML Class Tool" kind="CreationTool" toolClassName="">
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotoDI.elementtypesconfigurations#svk.dsmlproto.di.DsmlClass_Class_Shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotoDI.elementtypesconfigurations#svk.dsmlproto.di.DsmlClass_Class_Shape_CN"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="svk.dsmlproto.tool.dsmlclass.dynamic" label="DsmlClassDynamic" description="" kind="CreationTool">
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlClassDynamic_Class_Shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlClassDynamic_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlClassDynamic_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlClassDynamic_Class_MetaclassShape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlClassDynamic_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="svk.dsmlproto.tool.dsmlconstraint.dynamic" label="DsmlConstraintDynamic" description="" kind="CreationTool" toolClassName="">
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlConstraintDynamic_Constraint_Shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/svk.dsmlproto.plugin/model/dsmlprotodynamicdi.elementtypesconfigurations#svk.dsmlprotodynamic.di.DsmlConstraintDynamic_Constraint_Shape_CN"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+</paletteconfiguration:PaletteConfiguration>

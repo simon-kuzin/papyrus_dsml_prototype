@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" label="dsmlproto (legacy)">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="DsmlComponent">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="dsmlproto.elementtypesconfigurations#svk.dsmlproto.DsmlComponent"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="A Folder">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="DsmlClass">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="dsmlproto.elementtypesconfigurations#svk.dsmlproto.DsmlClass"/>
+    </menu>
+  </menu>
+</ElementCreationMenuModel:Folder>

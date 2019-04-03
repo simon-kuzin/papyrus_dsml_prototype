@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="svk.dsmlprotodynamic.elementTypes" identifier="svk.dsmlprotodynamic.elementTypes" name="dsmlproto.dynamic" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="svk.dsmlprotodynamic.DsmlClassDynamic" identifier="svk.dsmlprotodynamic.DsmlClassDynamic" name="DsmlClassDynamic" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_o6rpElRzEemPjv0Zh0vG7w" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_o6sQIFRzEemPjv0Zh0vG7w" profileUri="http://svk.dsmlproto.dynamic/definition">
+      <stereotypesQualifiedNames>dsmlproto.dynamic::DsmlClassDynamic</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="svk.dsmlprotodynamic.DsmlConstraintDynamic" identifier="svk.dsmlprotodynamic.DsmlConstraintDynamic" name="DsmlConstraintDynamic" hint="UML::Constraint" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_o6sQIlRzEemPjv0Zh0vG7w" iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_o6sQI1RzEemPjv0Zh0vG7w" profileUri="http://svk.dsmlproto.dynamic/definition">
+      <stereotypesQualifiedNames>dsmlproto.dynamic::DsmlConstraintDynamic</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_o6sQJFRzEemPjv0Zh0vG7w" description="Apply Stereotype DsmlClassDynamic" identifier="svk.dsmlprotodynamic.dsmlClassDynamic" target="svk.dsmlprotodynamic.DsmlClassDynamic">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_o6sQJVRzEemPjv0Zh0vG7w" stereotypeQualifiedName="dsmlproto.dynamic::DsmlClassDynamic" updateName="true">
+      <requiredProfiles>dsmlproto.dynamic</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_o6sQJlRzEemPjv0Zh0vG7w" description="Apply Stereotype DsmlConstraintDynamic" identifier="svk.dsmlprotodynamic.dsmlConstraintDynamic" target="svk.dsmlprotodynamic.DsmlConstraintDynamic">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_o6sQJ1RzEemPjv0Zh0vG7w" stereotypeQualifiedName="dsmlproto.dynamic::DsmlConstraintDynamic" updateName="true">
+      <requiredProfiles>dsmlproto.dynamic</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

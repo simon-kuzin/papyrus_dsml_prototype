@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="svk.dsmlproto.elements.elementTypes" identifier="svk.dsmlproto.elements.elementTypes" name="dsmlproto" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="svk.dsmlproto.elements.dsmlComponent" identifier="svk.dsmlproto.elements.DsmlComponent" name="DsmlComponent" hint="UML::Component" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_1LHRolGOEemmU-8J7T381A" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_1LHRo1GOEemmU-8J7T381A" profileUri="">
+      <stereotypesQualifiedNames>dsmlproto::DsmlComponent</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Component"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_XXtycFLPEemZGcUhHEfD9A" identifier="svk.dsmlproto.elements.DsmlClass" name="DsmlClass" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lmJAAFLPEemZGcUhHEfD9A" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_p3WWgFLPEemZGcUhHEfD9A" profileUri="">
+      <stereotypesQualifiedNames>dsmlproto::DsmlClass</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_1LHRpFGOEemmU-8J7T381A" description="Apply Stereotype dsmlComponent" identifier="svk.dsmlproto.elements.dsmlComponent" target="svk.dsmlproto.elements.dsmlComponent">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_1LHRpVGOEemmU-8J7T381A" stereotypeQualifiedName="dsmlproto::DsmlComponent" updateName="true">
+      <requiredProfiles>dsmlproto</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_w-IL8FLPEemZGcUhHEfD9A" description="Apply Stereotype dsmlComponent" identifier="svk.dsmlproto.elements.dsmlClass" target="_XXtycFLPEemZGcUhHEfD9A">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_48H9QFLPEemZGcUhHEfD9A" stereotypeQualifiedName="dsmlproto::DsmlClass" updateName="true">
+      <requiredProfiles>dsmlproto</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>
